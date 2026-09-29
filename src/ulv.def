@@ -1,0 +1,19 @@
+LIBRARY     ULV.DLL
+
+EXPORTS
+    LVModAuthenticateFile          @1   ; LVModAuthenticateFile
+    LVModAuthorize                 @2   ; LVModAuthorize
+    LVModAuthorizeVolatileCertificate @3   ; LVModAuthorizeVolatileCertificate
+    LVModCloseAuthenticationHandle @4   ; LVModCloseAuthenticationHandle
+    LVModDeprovisionSecurityForApplication @5   ; LVModDeprovisionSecurityForApplication
+    LVModGetDeveloperUnlockState   @6   ; LVModGetDeveloperUnlockState
+    LVModGetHash                   @7   ; LVModGetHash
+    LVModGetPageHashData           @8   ; LVModGetPageHashData
+    LVModGetSignerCertificateThumbprint @9   ; LVModGetSignerCertificateThumbprint
+    LVModInitialize                @10  ; LVModInitialize
+    LVModProvisionSecurityForApplication @11  ; LVModProvisionSecurityForApplication
+    LVModRouting                   @12  ; LVModRouting
+    LVModSetDeveloperUnlockState   @13  ; LVModSetDeveloperUnlockState
+    LVModUninitialize              @14  ; LVModUninitialize
+
+	
